@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-05-09T23:41:53.855Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="BJXH-lWe6Ai3WB55aXPv" version="13.0.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-05-10T00:04:07.199Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="8XcQKZJMJ3K-F05hFKUm" version="13.0.9" type="github">
   <diagram id="zZ8cL9uw9zCIzJFZQTrA" name="Page-1">
-    <mxGraphModel dx="918" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="918" dy="1612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,12 +8,6 @@
           <mxGeometry x="170" y="100" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="dbqei9973qF3Tscrkt3M-4" value="username (string)&#xa;password (string)" style="align=left;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" parent="dbqei9973qF3Tscrkt3M-3" vertex="1">
-          <mxGeometry y="30" width="160" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="dbqei9973qF3Tscrkt3M-5" value="Role" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;labelBackgroundColor=none;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" parent="1" vertex="1">
-          <mxGeometry x="530" y="100" width="160" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="dbqei9973qF3Tscrkt3M-6" value="name (string)" style="align=left;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" parent="dbqei9973qF3Tscrkt3M-5" vertex="1">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="dbqei9973qF3Tscrkt3M-11" value="Movie" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;labelBackgroundColor=none;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" parent="1" vertex="1">
@@ -26,6 +20,12 @@
           <mxGeometry x="170" y="270" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="dbqei9973qF3Tscrkt3M-16" value="firstName&#xa;lastName&#xa;email&#xa;phone" style="align=left;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" parent="dbqei9973qF3Tscrkt3M-15" vertex="1">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dbqei9973qF3Tscrkt3M-5" value="Role" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;labelBackgroundColor=none;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" parent="1" vertex="1">
+          <mxGeometry x="990" y="-180" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dbqei9973qF3Tscrkt3M-6" value="name (string)" style="align=left;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" parent="dbqei9973qF3Tscrkt3M-5" vertex="1">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="dbqei9973qF3Tscrkt3M-13" value="Rental" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;labelBackgroundColor=none;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" parent="1" vertex="1">
